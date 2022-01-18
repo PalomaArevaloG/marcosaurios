@@ -1,40 +1,89 @@
 <main class="page__main">
-  <h2>Este es el starter kit de Adalab</h2>
-  <p>Lo usamos para aprender:</p>
-  <ul class="main__list">
-    <li>Sass</li>
-    <li>HTML partials</li>
-    <li>Gulp</li>
-    <li>y muchas cosas más</li>
-  </ul>
-  <p>Si quieres saber cúales son las rutas correctas para:</p>
-  <ul class="main__list">
-    <li>
-      una <code class="code">&lt;img /&gt;</code> mira el fichero
-      <code class="code">./src/html/partials/header.html</code>.
-    </li>
-    <li>
-      y para un <code class="code">background-image</code> mira el fichero
-      <code class="code">./src/html/scss/layout/_page.scss</code>.
-    </li>
-  </ul>
-  <p>
-    Si quieres saber cómo usar un partial HTML dentro de otro partial, busca en la carperta
-    <code class="code">./src/html/index.html</code> y
-    <code class="code">./src/html/partials/main.html</code>, y verás cómo estamos creando estos
-    enlaces:
-  </p>
-  <ul class="main__list">
-    <li>
-      <include
-        src="./link.html"
-        aClass="link__adalab"
-        text="Adalab"
-        url="https://adalab.es"
-      ></include>
-    </li>
-    <li>
-      <include src="./link.html" text="Más info del starter kit" url="./more-info.html"></include>
-    </li>
-  </ul>
+	<section class="form">
+		<h1 class="form__title">Buscador de dinos</h1>
+		<form class="form__fill">
+			<input
+				class="input"
+				type="text"
+				placeholder="Introduce aquí tu dino"
+				value=""
+			/>
+
+			<button class="btn-search">Buscar</button>
+		</form>
+	</section>
+
+	<section class="container">
+		<article class="article">
+			<h2 class="article__title">¿Qué son los dinosaurios?</h2>
+			<p>
+				Dinosaurio es un término que procede de un vocablo griego que
+				puede traducirse como “lagarto terrible”. El concepto se utiliza
+				para nombrar a los vertebrados saurópsidos que dominaron la
+				Tierra durante unos 160 millones de años hasta que, por motivos
+				aún no confirmados, se extinguieron.
+			</p>
+			<p>
+				Los dinosaurios se caracterizaban por su inmenso tamaño, de
+				acuerdo a lo que la ciencia ha podido descubrir gracias a sus
+				fósiles (restos conservados en rocas sedimentarias). De hecho,
+				los dinosaurios fueron los seres vivos más grandes que habitaron
+				el planeta Tierra, alcanzando extremos de 50 metros de longitud,
+				unos 17 metros de altura y pesos cercanos a las 100 toneladas
+				según las especies.
+			</p>
+			<p>
+				Es posible dividir a los dinosaurios entre herbívoros y
+				carnívoros de acuerdo a su alimentación. Entre los herbívoros se
+				pueden destacar los estegosaurios, los anquilosaurios y los
+				braquiosaurios, mientras que los dinosaurios carnívoros más
+				destacados son los tiranosaurios y los velocirraptores.
+			</p>
+		</article>
+		<article class="article">
+			<h2 class="article__title">¿Cuando vivieron los dinosaurios?</h2>
+			<p>
+				Podemos decir que la época de los dinosaurios corresponde a la
+				era Mesozoica, la cuál comienza hace 225 millones de años y
+				terminó hace unos 65. La existencia de los dinosaurios en la
+				tierra abarca tres períodos que son:
+			</p>
+			<ul class="article__list">
+				<li>
+					Triásico: Va de 251 a 199 millones de años atrás. En el
+					período triásico comienza la “era de los reptiles”, el la
+					que predominaban los llamados reptiles “pseudomamíferos”.
+					Posteriormente aparecen los primeros especímenes de
+					dinosaurios y otros reptiles de gran tamaño. Mientras
+					evolucionan, los dinosaurios comienzan a dominar todos los
+					ecosistemas de la Tierra.
+				</li>
+				<li>
+					Jurásico: Se da de 199 a 145 millones de años atrás. Este
+					fue el período de apogeo de los dinosaurios. En este momento
+					aparecen las primeras especies de sus futuros sucesores: las
+					aves y los mamíferos. Aparecen también en este momento las
+					más primitivas plantas con flores.
+				</li>
+				<li>
+					Cretácico: Abarca de 145 a 65 millones de años atrás. Es la
+					época de los famosos tiranosaurios. Al final de este período
+					se produjo una catástrofe que provocó importantes cambios en
+					el planeta.
+				</li>
+			</ul>
+		</article>
+		<article class="article">
+			<h2 class="article__title">¿Qué pasó con los dinosaurios?</h2>
+			<p>
+				Los estudios científicos avalan la teoría de un gigantesco
+				meteorito que cayó en la zona del golfo de México. Esta habría
+				causado la extinción de los dinosaurios y de muchas otras
+				especies. De hecho podemos decir que se estima que pudieron
+				llegar a desaparecer alrededor del 50% de los géneros biológicos
+				existentes en aquel momento, y entre ellos, la gran mayoría de
+				dinosaurios.
+			</p>
+		</article>
+	</section>
 </main>
